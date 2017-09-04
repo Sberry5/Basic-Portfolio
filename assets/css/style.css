@@ -1,0 +1,25 @@
+body {font-family: 'Georgia', Times New Roman, serif
+		background-image: src="assets/images/Profile.jpg"
+}
+
+header {background: #4aaaa5;
+		width: 365px;
+		line-height: 150%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 20px;		
+}
+
+h1{color: #FFFFFF;
+	text-align: left;
+}
+
+h2{colod: #4aaaa5;
+}
+
+.button{color: #FFFFFF;
+		background: #4aaaa5;
+		text-align: center;
+}
