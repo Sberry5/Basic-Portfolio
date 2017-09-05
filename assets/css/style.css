@@ -1,5 +1,5 @@
-body {font-family: 'Georgia', Times New Roman, serif
-		background-image: src="assets/images/Profile.jpg"
+body {font-family: 'Georgia', Times New Roman, serif;
+		background-image:url(../images/Backgroundimage.png);
 }
 
 header {background: #4aaaa5;
@@ -16,7 +16,10 @@ h1{color: #FFFFFF;
 	text-align: left;
 }
 
-h2{colod: #4aaaa5;
+h2{color: #4aaaa5;
+}
+
+h3{color:#4aaaa5;
 }
 
 .button{color: #FFFFFF;
