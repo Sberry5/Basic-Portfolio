@@ -14,7 +14,7 @@ body, html{padding: 0;
 }
 
 ul {list-style-type: none;
-	display: inline;
+	display: inline-block;
 	color: #777777;
 }
 
@@ -23,23 +23,23 @@ li{float: left;
 	color: #777777;
 	background-color: #FFFFFF;
 	background-size: 50em 50em;
-	display: inline;
+	display: inline-block;
 }
 
 li:hover{background-color: #fbfaf8;
 }
 
 
-h1,h2,h3,h4{font-family: 'Georgia', Times, "Times New Roman", serif;
+h1,h2,h3,h4{font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 
-h1{color: #FFFFFF;
+h1{color: #ffffff;
 	background: #4aaaa5;
 	width: 400px;
 	line-height: 200%;
 	padding: 50px;
-	border-right: 60em #FFFFFF;
+	border-right: 60em #ffffff;
 	display: inline-block;
 }
 
@@ -65,28 +65,39 @@ p{color:#777777;
 form{background-color: #fbf4f8;
 }
 
+aside{float: left;
+		display: inline-block;
+}
+
+#navbar a {float: left;
+		display: block;
+		text-decoration: none;
+}
+
+#navbar{overflow: hidden;
+		background-color: #ffffff;
+}
 
 .main{float: left;
 		width: 650px;
 		height: 650px;
 		padding: 10px;
 		color: #777777;
-		background-color: #FFFFFF;
-}
-
-.aside{float: left;
-		display: inline-block;
+		background-color: #ffffff;
 }
 
 
 .links{float: left;
 		width: 250px;
-		background-color: #FFFFFF;
+		background-color: #ffffff;
+		border: 2px solid #dddddd;
 		border-padding: 20px;
 		border-margin: 25px;
+
 }
 
-
+#me{float: left;
+}
 
 #button{color: #FFFFFF;
 		background-color: #4aaaa5;
