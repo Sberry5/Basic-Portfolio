@@ -1,28 +1,113 @@
-body {font-family: 'Georgia', Times New Roman, serif;
+body {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		background-image:url(../images/Backgroundimage.png);
+		background-size: cover;
+		z-index: -1;
+		margin-bottom: 75px;
 }
 
-header {background: #4aaaa5;
-		width: 365px;
-		line-height: 150%;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		margin-left: 20px;
-		margin-right: 20px;
-		padding: 20px;		
+html{position: relative;
+	min-height: 100%
 }
+
+body, html{padding: 0;
+		margin: 0;
+}
+
+ul {list-style-type: none;
+	display: inline;
+	color: #777777;
+}
+
+li{float: left;
+	text-decoration: none;
+	color: #777777;
+	background-color: #FFFFFF;
+	background-size: 50em 50em;
+	display: inline;
+}
+
+li:hover{background-color: #fbfaf8;
+}
+
+
+h1,h2,h3,h4{font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
 
 h1{color: #FFFFFF;
+	background: #4aaaa5;
+	width: 400px;
+	line-height: 200%;
+	padding: 50px;
+	border-right: 60em #FFFFFF;
+	display: inline-block;
+}
+
+
+h2{color: #4aaaa5;
 	text-align: left;
 }
 
-h2{color: #4aaaa5;
-}
 
 h3{color:#4aaaa5;
 }
 
-.button{color: #FFFFFF;
-		background: #4aaaa5;
+
+a{display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #777777;
+}
+
+p{color:#777777;
+}
+
+form{background-color: #fbf4f8;
+}
+
+
+.main{float: left;
+		width: 650px;
+		height: 650px;
+		padding: 10px;
+		color: #777777;
+		background-color: #FFFFFF;
+}
+
+.aside{float: left;
+		display: inline-block;
+}
+
+
+.links{float: left;
+		width: 250px;
+		background-color: #FFFFFF;
+		border-padding: 20px;
+		border-margin: 25px;
+}
+
+
+
+#button{color: #FFFFFF;
+		background-color: #4aaaa5;
+		background-size: contain;
 		text-align: center;
+		border: none;
+		padding: 10px;
+}
+
+#button:active{background-color: #e4f0f5;
+}
+#button:hover{background-color: #009d7c;
+}
+
+#footer{background-color: #666666;
+		padding-top: 15px;
+		text-align: center;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 70px;
+		border-top: 5px solid #4aaaa5;
+		clear: left;
 }

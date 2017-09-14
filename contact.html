@@ -3,47 +3,63 @@
 <head>
 	<title>Contact</title>
 
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+</head>
 <body>
 
-	<header>
-		<h1>Shannon Berry-Heller</h1>
-	</header>
 
-	<br>
-	<section id="headtype">
+<!--Navigation Bar-->
+
+<div class="header">
+		<ul>
+		<li><h1>Shannon Berry-Heller</h1></li>
+		<li><a href="index.html">About</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		</ul>
+</div>
+
+
+<!--Main Content-->
+
+<article class="main">
+
 		<h2>Contact</h2>
-	</section>
 
-	<form action="/action_page.php">
-		Name<br>
-		<input type="text" size="60">
-		<br>
-		Email<br>
-		<input type="text" size="60">
-		<br>
-		Message<br>
+	<form action="/action_page.php">Name<br><input type="text" size="60">
+		<br>Email<br>
+		<input type="Email" id="Email" size="60">
+		<br>Message<br>
 		<textarea rows="20" cols="60"></textarea>
 		<br><br>
 		<input id="button" type="submit" value="Submit">
 	</form>
+</article>
+
+
+<!--Links-->
+
+<aside class="links">
 	
-	<section id="headtype">
 		<h3>Connect with Me</h3>
-	</section>
+		<a href="http://github.com/Sberry5" target="_blank"><img src="assets/images/Github.png" alt="Github" style="width:50px;height:50px"></a>
 
-	<img src="assets/images/Github.png" 
-		alt="Github"
-		style="width:70px;height:70px">
+		<a href="https://www.linkedin.com/in/shannon-berry-heller-7a720a65" target="_blank"><img src="assets/images/Linkedin.png" alt="Linkedin" style="width:50px;height:50px"></a>
 
-	<img src="assets/images/Linkedin.png" 
-		alt="Linkedin"
-		style="width:70px;height:70px">
+		<a href="http://stackexchange/com/users/1446776/sberry5" target="_blank"><img src="assets/images/Stack.png" alt="Stack Overflow" style="width:50px;height:50px"></a>
+	
+</aside>
 
-	<img src="/assets/images/Stack.png" 	
-		alt="Stack Overflow"
-		style="width:70px;height:70px">
+
+<!--Footer-->
+<br>
+
+<div id="footer">
+	<footer>
+	<p>&#9400 Copyright 2017 Shannon Berry-Heller</p>
+	</footer>
+</div>
 
 </body>
 </html>
